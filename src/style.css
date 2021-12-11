@@ -1,0 +1,106 @@
+:root {
+  --text-alignment: center;
+  --button-padding: 20px;
+  --button-radius: 10px;
+  --button-margin: 20px;
+  --button-text-size: 18px;
+  --para-background: #f5f2fe;
+  --para-width: 300px;
+}
+/* CSS for Homepage page */
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 68px !important;
+}
+h2 {
+  font-size: 45px !important;
+  padding-top: 50px;
+}
+h3 {
+  font-size: 24px !important;
+  color: #4d4d4d;
+}
+h4 {
+  font-size: 48px !important;
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+.about-para {
+  text-align: var(--text-alignment);
+  font-size: 20px;
+  padding-top: 50px;
+}
+.button-links {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.button-links a {
+  text-decoration: none;
+  font-size: var(--button-text-size);
+}
+.contact-me {
+  background-color: #6c61f6;
+  padding: var(--button-padding);
+  border-radius: var(--button-radius);
+  margin: var(--button-margin);
+  border: #6c61f6;
+  box-shadow: 8px 8px 8px lightgray;
+}
+.about-me {
+  background-color: white;
+  padding: var(--button-padding);
+  border-radius: var(--button-radius);
+  margin: var(--button-margin);
+  border: 1px solid #6c61f6;
+}
+.contact-me a {
+  color: white;
+}
+.about-me a {
+  color: #6c61f6;
+}
+.row {
+  padding-top: 20px;
+}
+.project-para {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.project-buttons {
+  background-color: #6c61f6;
+  padding: var(--button-padding);
+  border-radius: var(--button-radius);
+  border: #6c61f6;
+  box-shadow: 8px 8px 8px lightgray;
+  margin-top: var(--button-margin);
+  color: white;
+  font-size: var(--button-text-size);
+}
+.bg-purple {
+  background-color: var(--para-background) !important;
+}
+
+/* CSS for About Me page */
+.homepage {
+  display: block;
+  text-align: var(--text-alignment);
+  color: #6c61f6;
+}
+
+.email {
+  display: block;
+  text-align: var(--text-alignment);
+  font-size: 28px;
+  color: #6c61f6;
+  text-decoration: none;
+}
+.email:hover {
+  text-decoration: underline;
+}
